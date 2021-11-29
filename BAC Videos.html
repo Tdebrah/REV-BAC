@@ -18,39 +18,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- BAC Icon -->
     <link rel="shortcut icon" href="/BAC_2.ico" />
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
     <!-- External css -->
     <link rel="stylesheet" href="BAC2.css">
 
 </head>
 
 <body>
-    <!-- <video autoplay muted loop>
-        <source src="BGVID.mp4" type="video/mp4">
-    </video> -->
-    <div class="realHead">
-        <!-- <img src="BAC_1.png" alt="BACSEC"> -->
-        <div class="panel">
-            <img src="BAC_2.ico" alt="BACSEC" id="logo">
-            <h1>BAC SCIENCE EDUCATION CONSULTANTS</h1>
+    <div class="w3-container w3-teal w3-top w3-card-2 ">
+        <div class="panel w3-container w3-padding-5" style="display: flex;">
+            <img src="BAC_2.ico" class="w3-circle w3-animate-fading" alt="BACSEC" width="150px" height="140px"
+                id="logo">
+            <section id="namenlogo" class="w3-container">
+                <h1>BAC SCIENCE EDUCATION CONSULTANTS</h1>
 
+            </section>
         </div>
 
-        <div class="container-fluid">
-            <ul>
+        <div id="demo" class="w3-hide w3-hide-large w3-hide-medium">
+            <ul type="none" class="w3-navbar w3-teal w3-large">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#phy">PHYSICS</a></li>
                 <li><a href="#bio">BIOLOGY</a></li>
                 <li><a href="#chem">CHEMISTRY</a></li>
-                <li><a href="#agric">AGRICULTURE</a></li>
-                <li><a href="#mtc">MATHEMATICS</a></li>
-
+                <li><a href="#mtc">MATHEMATICS</a></li>                                    
             </ul>
         </div>
-
+        <ul class="w3-navbar w3-large w3-left-align">
+            <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+                <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+            </li>
+            <li><a class="w3-padding-24 w3-hide-small" href="index.html">HOME</a></li>
+            <li><a class="w3-padding-24 w3-hide-small" href="#phy">PHYSICS</a></li>
+            <li><a class="w3-padding-24 w3-hide-small" href="#bio">BIOLOGY</a></li>
+            <li><a class="w3-padding-24 w3-hide-small" href="#chem">CHEMISTRY</a></li>
+            <li><a class="w3-padding-24 w3-hide-small" href="#mtc">MATHEMATICS </a></li>
+        </ul>
     </div>
-    <div class="realBody">
-        <div class="cards" id="phy">
-            <div class="card" id="one">
+
+
+
+
+    <div class="w3-container" style="margin-top: 13rem; padding: 4rem;">
+        <div class="w3-row-padding" style="padding: 1rem;" id="phy">
+            <div class="w3-half w3-card-2" id="one">
                 <h4> <i> <b> OUR LATEST PHYSICS LESSON </b> </i></h4>
                 <h5>An Introduction to A'Level Physics</h5>
                 <p>3 Papers of Physics; Well explained <br>
@@ -62,21 +74,21 @@
                     </a>
                 </p>
             </div>
-            <div class="card">
+            <div class="w3-half w3-card-2">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/gZL52ovd6zc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
-        <div class="cards" id="bio">
-            <div class="card">
+        <div class="w3-row-padding" style="padding:1rem;" id="bio">
+            <div class="w3-half w3-card-2">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/gZL52ovd6zc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="card" id="one">
+            <div class="w3-half w3-card-2" id="one">
                 <h4> <i> <b> OUR LATEST BIOLOGY LESSON </b> </i></h4>
                 <h5>An Introduction to A'Level Physics</h5>
                 <p>3 Papers of Physics; Well explained <br>
@@ -90,8 +102,8 @@
             </div>
 
         </div>
-        <div class="cards" id="chem">
-            <div class="card" id="one">
+        <div class="w3-row-padding" id="chem">
+            <div class="w3-half w3-card-2" id="one">
                 <h4> <i> <b> OUR LATEST CHEMISTRY LESSON </b> </i></h4>
                 <h5>An Introduction to A'Level Physics</h5>
                 <p>3 Papers of Physics; Well explained <br>
@@ -103,21 +115,21 @@
                     </a>
                 </p>
             </div>
-            <div class="card">
+            <div class="w3-half w3-card-2">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/gZL52ovd6zc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
-        <div class="cards" id="agric">
-            <div class="card">
+        <div class="w3-row-padding" id="agric">
+            <div class="w3-half w3-card-2">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/gZL52ovd6zc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="card" id="one">
+            <div class="w3-half w3-card-2" id="one">
                 <h4> <i> <b> OUR LATEST AGRICULTURE LESSON </b> </i></h4>
                 <h5>An Introduction to A'Level Physics</h5>
                 <p>3 Papers of Physics; Well explained <br>
@@ -131,8 +143,8 @@
             </div>
 
         </div>
-        <div class="cards" id="mtc">
-            <div class="card" id="one">
+        <div class="w3-row-padding" id="mtc">
+            <div class="w3-half w3-card-2" id="one">
                 <h4> <i> <b> OUR LATEST MATHEMATICS LESSON </b> </i></h4>
                 <h5>An Introduction to A'Level Physics</h5>
                 <p>3 Papers of Physics; Well explained <br>
@@ -144,7 +156,7 @@
                     </a>
                 </p>
             </div>
-            <div class="card">
+            <div class="w3-half w3-card-2">
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/gZL52ovd6zc"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -152,8 +164,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="contacts">
+    <footer class="w3-row-padding w3-brown">
+        <div class="contacts w3-third">
             <h4>CONTACT INFO</h4>
             <P> <i class="fa fa-phone"></i>
                 +256-788205343 &nbsp; &nbsp;
@@ -167,7 +179,7 @@
             </P>
 
         </div>
-        <div class="contacts">
+        <div class="contacts w3-third">
             <h4>Recent Lessons</h4>
             <h4> <i> <b> 3 Papers of Physics; Well explained </b> </i></h4>
             <iframe width="200" height="100" src="https://www.youtube.com/embed/gZL52ovd6zc"
@@ -176,7 +188,7 @@
                 allowfullscreen></iframe>
 
         </div>
-        <div class="contacts">
+        <div class="contacts w3-third">
             <h4>FOLLOW US</h4>
             <P> <a href="https://www.youtube.com/channel/UCO_Q2ATx4Jojx_GmJZUa9WA"> <i class="fa fa-youtube"></i></a>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -196,7 +208,12 @@
 
     </footer>
 
-    
+
 </body>
+<script>
+    function myFunction() {
+        document.getElementById("demo").classList.toggle("w3-show");
+    }
+</script>
 
 </html>
