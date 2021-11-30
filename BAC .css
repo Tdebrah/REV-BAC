@@ -1,0 +1,51 @@
+body{
+    font-family: 'Times New Roman';
+}
+.panel{
+    display: flex;
+}
+.panel img{
+    width: 100px;
+    height: 100px;
+}
+.panel h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman';
+    margin-left: 10px;
+
+}
+.realHead{
+    margin-left: 20rem;
+}
+.realHead li{
+    margin-left: 20px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+#slogan{
+    color: blue;
+    font-style: italic;
+}
+table{
+    border: 1px rgb(76, 76, 139); ;
+}
+.fa {
+    color: tomato;
+}
+.w3-card-2,
+.w3-card-4,
+.w3-card-8,
+.w3-card-12,
+.w3-card-16{
+    color: rgb(76, 76, 139);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+footer .w3-third{
+   font-size: 20px;
+
+}
